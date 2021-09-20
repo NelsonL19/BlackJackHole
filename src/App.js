@@ -1,8 +1,12 @@
 import './App.css';
+import React from 'react';
+import Start from "./components/start";
 
-function App() {
+function App () {
   return (
-<h1>Hello World!</h1>
+    <div className="App">
+      <Start />
+    </div>
   );
 }
 
